@@ -9,17 +9,24 @@ body {
     height: 88vh;
     left: 400px;
 }
-.up{
+
+.up {
     display: flex;
     justify-content: space-between;
     width: 650px;
     margin-left: 50px;
 
 }
+
 #logo {
     position: absolute;
     right: 20px;
     top: 15px;
+}
+
+#image-container {
+    position: absolute;
+    left: 1015px;
 }
 
 #head {
@@ -44,27 +51,36 @@ table {
     margin-top: 60px;
     margin-left: 50px;
     background-color: white;
-    width: 1300px;
+    width: 980px;
+}
+
+.foot {
+    position: absolute;
+    bottom: -13px;
+    left: 40px;
+
 }
 
 .hd {
+    top: 215px;
     position: absolute;
     color: white;
     align-items: center;
     padding: 0 10px 0 10px;
     height: 40px;
     background-color: #F05033;
-    width: 930px;
+    width: 62.5%;
     display: flex;
     justify-content: space-between;
 }
 
-tr{
+tr {
     border: 1px solid grey;
 }
+
 td {
     padding: 10px 0 13px 0;
-    
+
     margin: 0 30px 10px 30px;
 }
 
@@ -72,13 +88,20 @@ td {
     background-color: #f2f2f2;
 }
 
+a {
+    color: #3084EE;
+    cursor: pointer;
+}
+
 .bord:hover {
     background-color: #ddd;
 }
-.mid{
+
+.mid {
     padding-left: 40px;
     color: grey;
 }
+
 .msd-button {
     background-color: #0066cc;
     color: white;
